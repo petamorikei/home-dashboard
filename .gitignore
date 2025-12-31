@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Bun
+*.lockb
+
+# Build outputs
+dist/
+out/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Docker volumes (local development)
+data/
+
+# Temporary files
+tmp/
+*.tmp
+
+# Playwright
+.playwright-mcp/
